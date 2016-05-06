@@ -13,6 +13,8 @@ public class MainScreen extends AbstractScreen {
 	public MainScreen(MainProyecto main) {
 		super(main);
 		// TODO Auto-generated constructor stub
+		
+		
 	}
 	public void show(){
 		batch= MainProyecto.getbatch();
