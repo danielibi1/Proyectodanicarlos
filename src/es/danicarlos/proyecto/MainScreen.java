@@ -28,12 +28,7 @@ public class MainScreen extends AbstractScreen {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		exit.update(); // Comprobamos que se pulsan los botones
 		play.update();
-		try {
-			Thread.currentThread().sleep(200);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		batch.begin();
 		exit.draw(batch); // Dibujamos el botón exit
 		play.draw(batch); // Dibujamos el botón play
